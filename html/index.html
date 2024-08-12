@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Verificador de peso e idade</title>
+    <title>Verficador de peso e idade</title>
 </head>
 <body>
     <main>
-        <section id="Verificador">
-            <form>
-                <header><h1>Verificador de peso e idade</h1></header>
-                <div id="formulario">
-                    <div class="dados">
-                        <label for="ipeso" id="labelpeso">Peso</label>
-                        <input type="number" name="ipeso" id="peso">
-                    </div>
-                    
-                    <div class="dados">
-                        <label for="iidade" id="labelidade">Idade</label>
-                        <input type="number" name="iidade" id="idade">
-                    </div>
+        <section>
+            <h2>Verificador de NIP <br> (Nome, peso e idade)</h2>
 
-                    <div id="resultado">
-                        <p>ola</p>
-                    </div>
+            <form>
+            <div class="coleta">
+                <div class="dados">
+                    <label for="inome">Nome</label>
+                    <input type="text" name="inome" id="nome">
+                 </div>
+
+                <div class="dados">
+                   <label for="iidade">Idade</label>
+                   <input type="number" name="iidade" id="idade'">
+                
+
+                <div class="dados">
+                    <label for="ipeso">Peso</label>
+                    <input type="number" name="ipeso" id="peso">
                 </div>
+
+                <div id="resultado">Aqui vai o resultado</div>
+            </div>  
             </form>
-        </section> 
+        </section>
     </main>
+    <script src="../javascript/script.js"></script>
 </body>
 </html>

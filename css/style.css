@@ -1,15 +1,13 @@
-@charset "UTF-8";
-
-* { 
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     height: 100vh;
-    background-image: linear-gradient(160deg, #9FBDE6, #507ae6);
+    background-image: linear-gradient(140deg,#EA9049, #ffffff59);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,45 +16,40 @@ body {
 
 section {
     background-color: white;
-    height: auto;
-    width: 240px;
-    padding: 15px;
     border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+
 }
 
-header {
-    padding-top: 10px;
-    text-align: center;
-    background-color: #507ae6;
+h2 {
+    padding: 24px;
+    background-color: #EA9049;
     color: white;
-    border-radius: 10px;
-    width: 240px;
+    text-align: center;
 
-}
-
-#formulario {
-    margin-top: 15px;
-}
-
-.dados {
-    margin-top: 17px;
 }
 
 #resultado {
-    background-color: black;
-    transform: translate(-6%);
-    height: auto;
-    width: 240px;
-    margin-top: 20px;
+    background-color: #EA9049;
+    color: white;
     display: none;
 }
 
-input {
-    border-style: solid;
-    border-radius: 5px;
-    width: 100%;
-    margin-top: 2px;
-
+form {
+    padding: 10px;
+    margin-top: 6px;
 }
+
+input{
+   width: 100%;
+   border: 2px solid #dfdfdf;
+   border-radius: 10px;
+   margin-top: 2px;
+   margin-bottom: 20px;
+}
+
+
+
 
 
