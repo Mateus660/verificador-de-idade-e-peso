@@ -37,7 +37,11 @@ h2 {
     background-color: #EA9049;
     color: white;
     display: none;
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+    padding: 10px; /* Adiciona um pouco de padding para espaçamento interno */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
 }
+
 
 form {
     padding: 10px;
@@ -53,14 +57,14 @@ input{
    text-indent: 4px;
 }
 
-#ver {
+input[type=submit] {
     background-color: #EA9049;
     color: white;
     padding: 8px;
     font-size: 17px;
 }
 
-#limpar {
+input[type=reset] {
     background-color: white;
     color: #EA9049;
     padding: 8px;

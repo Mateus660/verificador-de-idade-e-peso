@@ -21,14 +21,17 @@ function corignome() {
     validnome = true  
   }     
 } 
+function verificar(){
+  event.preventDefault();
 
-function verificar() {
   var verificar = document.getElementById('ver')
   var resulltado = document.getElementById('resultado') 
-  if(verificar) {
-     resulltado.setAttribute('style', 'display: block')
-     resulltado.innerText = ('Ola', + nome)
-   } else {
 
-   }
-}
+  if (nome.value == '' || idade.value == '' || peso.value == '') {
+    alert('Por favor, preencha todos os campos');
+
+  } else {
+    resultado.setAttribute('style', 'display: block');
+    resultado.innerHTML = `Olá ${nome.value} <br> você pesa atualmente ${peso.value} kg <br> e tem ${idade.value} anos.`;
+  }
+}   
