@@ -34,4 +34,4 @@ function verificar(){
     resultado.setAttribute('style', 'display: block');
     resultado.innerHTML = `Olá ${nome.value} <br> você pesa atualmente ${peso.value} kg <br> e tem ${idade.value} anos.`;
   }
-}   
+}
