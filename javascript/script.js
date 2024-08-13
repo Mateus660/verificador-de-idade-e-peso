@@ -23,5 +23,12 @@ function corignome() {
 } 
 
 function verificar() {
-   alert = ('ola' + nome) 
+  var verificar = document.getElementById('ver')
+  var resulltado = document.getElementById('resultado') 
+  if(verificar) {
+     resulltado.setAttribute('style', 'display: block')
+     resulltado.innerText = ('Ola', + nome)
+   } else {
+
+   }
 }
