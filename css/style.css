@@ -6,20 +6,23 @@
 }
 
 body {
-    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
     background-image: linear-gradient(140deg,#EA9049, #ffffff59);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    
 }
 
 section {
     background-color: white;
     border-radius: 10px;
-    width: 100%;
+    width: 280px;
     overflow: hidden;
 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 h2 {
@@ -44,12 +47,23 @@ form {
 input{
    width: 100%;
    border: 2px solid #dfdfdf;
-   border-radius: 10px;
+   border-radius: 7px;
    margin-top: 2px;
    margin-bottom: 20px;
+   text-indent: 4px;
 }
 
+#ver {
+    background-color: #EA9049;
+    color: white;
+    padding: 8px;
+    font-size: 17px;
+}
 
-
-
-
+#limpar {
+    background-color: white;
+    color: #EA9049;
+    padding: 8px;
+    font-size: 17px;
+    border-color: #EA9049;
+}
